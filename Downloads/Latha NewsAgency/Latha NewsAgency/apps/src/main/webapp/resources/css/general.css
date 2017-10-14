@@ -1,0 +1,138 @@
+
+
+
+	/* Full-width input fields */
+	
+	
+
+ input[type=text], input[type=date], input[type=password] {
+    width: 18%;
+    padding: 4px 8px;
+    display: inline-block; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+   
+}
+
+/* text area  */	
+	.textArea {
+	    
+	    width: 42%;
+    	display: inline-block; 
+   	    border: 4px solid #ccc;
+   		box-sizing: border-box;
+	     border-radius: 8px;
+	}
+	
+	
+	input[type=text], input[type=date], input[type=password], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 2px 0px 2px 2px;
+  margin: 3px 1px 3px 0px;
+  border: 2px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, input[type=date]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+	
+	
+
+
+/* label alignment  */	
+	.label1 {
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 6px 16px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	
+	.label2{
+	    border: none;
+	    width: 18%;
+	    color: black;
+	    padding: 6px 16px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	.labelDropdown {
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 10px 14px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	.labelRegion {
+	    border: none;
+	    width: 15%;
+	    color: black;
+	    padding: 10px 24px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	.labelRequired {
+	    border: none;
+	    width: 16%;
+	    color: black;
+	    padding: 10px 14px;
+	     
+	    font-size: 14px;
+	    text-align: left;
+	   
+	}
+		
+		.testSteps {
+		    border: none;
+		    width: 14%;
+		    color: black;
+		    padding: 10px 14px;
+		    font-size: 14px;
+		    text-align: right;
+		   
+		}
+		
+		.labelChain {
+		    border: none;
+		    width: 12%;
+		    color: black;
+		    padding: 10px 14px;
+		    font-size: 14px;
+		    text-align: right;
+		   
+		}
+		
+		.expected {
+		    border: none;
+		    width: 14%;
+		    color: black;
+		    padding: 10px 14px;
+		    font-size: 14px;
+		    text-align: right;
+		   
+		}
+		
+		.actual {
+		    border: none;
+		    width: 12%;
+		    color: black;
+		    padding: 10px 14px;
+		    font-size: 14px;
+		    text-align: right;
+		   
+		}
+		

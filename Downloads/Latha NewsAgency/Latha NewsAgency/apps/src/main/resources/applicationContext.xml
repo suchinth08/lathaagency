@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="loginManager" class="in.anandm.apps.event.EventManager" />
+	<bean id="loginHistoryListener" class="in.anandm.apps.event.EventListener" /> 
+	<bean id="sendemail" class="in.anandm.apps.process.SendEmail" /> 
+	<bean id="processor" class="in.anandm.apps.process.ProcessorImpl" /> 
+	
+	 <bean id="startprocess" class="in.anandm.apps.process.StartProcess"> 
+		<property name="processor" ref="processor" />
+	</bean>
+	
+		
+</beans>

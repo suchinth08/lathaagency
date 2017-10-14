@@ -1,0 +1,150 @@
+
+
+
+	/* Full-width input fields */
+	
+	
+
+ input[type=text], input[type=date], input[type=password] {
+    width: 26%;
+    padding: 4px 8px;
+    margin: 4px 0;
+    /*  font-size: 8pt; color: #555; */
+    display: inline-block; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+   
+}
+
+#internalTkt  {
+	 width: 8%;
+    padding: 4px 8px;
+    margin: 4px 0;
+    /*  font-size: 8pt; color: #555; */
+    display: inline-block; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+   
+}
+/* text area  */	
+	.textArea {
+	    
+	    width: 30%;
+    	display: inline-block; 
+   	    border: 4px solid #ccc;
+   		box-sizing: border-box;
+	     border-radius: 8px;
+	}
+	
+	
+	input[type=text], input[type=date], input[type=password], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 2px 0px 2px 2px;
+  margin: 3px 1px 3px 0px;
+  border: 2px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, input[type=date]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+	
+	
+
+/* .search:focus {
+    box-shadow: 0 0 10px #428bca;#041894 #428bca
+    box-border: #041894;  
+} */
+	
+/* label alignment  */	
+	.label1 {
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 6px 16px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	
+	/* label for term & condition  */	
+	.agree {
+	    border: none;
+	    width: 24%;
+	    color: black;
+	    padding: 6px 16px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	/* labelInternal */
+	.labelInternal {
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 6px 16px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+
+	.labelDrop{
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 10px 14px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	.labelReg {
+	    border: none;
+	    width: 14%;
+	    color: black;
+	    padding: 10px 14px;
+	    font-size: 14px;
+	    text-align: right;
+	   
+	}
+	.labelReq {
+	    border: none;
+	    width: 16%;
+	    color: black;
+	    padding: 10px 14px;
+	     
+	    font-size: 14px;
+	    text-align: left;
+	   
+	}
+	
+
+	
+/* Modal content division  */	
+	.division {
+	    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+	    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 40px; /* Firefox */
+	    column-gap: 40px;
+	    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+	    -moz-column-rule-style: solid; /* Firefox */
+	    column-rule-style: solid;
+	    -webkit-column-rule-width: 1zpx; /* Chrome, Safari, Opera */
+	    -moz-column-rule-width: 1px; /* Firefox */
+	    column-rule-width: 1px;
+	     -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+	    
+	}	
+	
+	
+	

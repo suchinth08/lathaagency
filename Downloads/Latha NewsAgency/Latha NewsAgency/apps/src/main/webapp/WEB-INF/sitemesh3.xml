@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sitemesh>
+
+	<mapping decorator="/decorators/dashboardtheme" path="/*" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/ajax/*" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/lockscreen" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/login" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/loginError" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/register" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/login" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/Confirm" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/ReConfirm" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/ReConfirmError" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/GetPayDetails" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/PayConfirm" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/PayConfirmErr" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/invoice" />
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/pages/examples/invoiceErr" />
+	
+	<!-- 
+	<mapping exclude="true" decorator="/decorators/dashboardtheme" path="/login/*" />
+	 -->
+</sitemesh>
